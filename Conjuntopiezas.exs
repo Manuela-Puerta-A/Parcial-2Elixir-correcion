@@ -1,6 +1,5 @@
 defmodule Conjuntopiezas do
-
-
+  #punto1b
     case File.read(nombre_archivo) do
       {:ok, contenido} ->
         lineas = String.split(contenido, "\n", trim: true)
@@ -36,4 +35,3 @@ defmodule Conjuntopiezas do
   def contar_stock_bajo(piezas, umbral) when is_integer(umbral) do
     contar_stock_bajo(piezas, umbral, 0)
   end
-

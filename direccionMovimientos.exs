@@ -1,5 +1,5 @@
 defmodule direccionMovimientos do
-
+#punto2
   def leer_movimientos(nombre_archivo) do
     case File.read(nombre_archivo) do
       {:ok, contenido} ->
